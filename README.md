@@ -30,6 +30,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 math.html
 <!DOCTYPE html>
 <html>
@@ -128,6 +129,7 @@ urlpatterns = [
     path('surfaceareaofrightcylinder/',views.surfaceareaofrightcylinder,name="surfaceareaofrightcylinder"),
     path('',views.surfaceareaofrightcylinder,name="surfaceareaofrightcylinderroot")
 ]
+```
 
 
 ## SERVER SIDE PROCESSING:
