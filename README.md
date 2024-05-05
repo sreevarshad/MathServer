@@ -93,7 +93,7 @@ h1 {
 </body>
 </html>
 
-views.py
+hha.py
 from django.shortcuts import render
 
 def surfaceareaofrightcylinder(request):
@@ -120,7 +120,7 @@ def surfaceareaofrightcylinder(request):
     
     return render(request, 'mathapp/math.html', context)
 
-urls.py
+from django.py
 from django.contrib import admin
 from django.urls import path
 from mathapp import views
